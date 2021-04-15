@@ -10,7 +10,10 @@ Será uma pequena Api pensando no modelo Academico de Universidades .
 claramente poderia ser usado o PostMan também sem uso do Swagger más para este 
 caso de exemplo será com Swagger .
 *Para Essa aplicação ainda não estará com o pacote Jwt para geração de Token .
-*Aplicação para fins de Estudo com a tecnologia 
+*Aplicação para fins de Estudo com a tecnologia .
+*Para esta aplicação tentarei usar o padrão de projeto Repository Pattern aprendido com 
+formações online com a Plataforma Balta.io que recomendo estudos a toda Comunidade .
+Será aplicado para testar o aprendizado com o conteúdo.
 
 
 dotnet add package Microsoft.EntityFrameworkCore --version 3.1.14
