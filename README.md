@@ -18,4 +18,4 @@ Será aplicado para testar o aprendizado com o conteúdo.
 
 dotnet add package Microsoft.EntityFrameworkCore --version 3.1.14
 dotnet add package Microsoft.EntityFrameworkCore.Design --version 3.1.14
-dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 6.0.0-preview.3.21201.2
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 3.1.14
