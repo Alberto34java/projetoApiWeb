@@ -10,6 +10,21 @@ namespace Models
         
         [Required]
         public string Nome { get; set; }
+        [Required]
+
+        public string Descricao { get; set; }
+        [Required]
+        public string Duracao { get; set; }
+        public int FormacaoId { get; set; }
+        public Formacao Formacao { get; set; }
+        
+        
+        
+        
+        
+        
+        
+        
         
         
     }
