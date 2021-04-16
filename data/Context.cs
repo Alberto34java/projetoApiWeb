@@ -15,5 +15,9 @@ namespace data
        {
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(Context).Assembly);
        }
+
+
+       public DbSet<Formacao> Formacaos{get; set;}
+       public DbSet<Curso> Cursos{get; set;}
     }
 }
