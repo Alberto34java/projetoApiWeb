@@ -9,7 +9,6 @@ namespace data.Configuring
         public void Configure(EntityTypeBuilder<Curso> builder)
         {
             builder.HasKey(p => p.Id);
-            builder.HasIndex(p => p.Nome).IsUnique();
             builder.Property(p => p.Descricao).HasColumnType("VARCHAR(250)").IsRequired();
             builder.Property(p => p.Duracao).HasColumnType("VARCHAR(20)").IsRequired();
            
