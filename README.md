@@ -14,6 +14,10 @@ caso de exemplo será com Swagger .
 *Para esta aplicação tentarei usar o padrão de projeto Repository Pattern aprendido com 
 formações online com a Plataforma Balta.io que recomendo estudos a toda Comunidade .
 Será aplicado para testar o aprendizado com o conteúdo.
+Foi Utilizado também o uso do Fluent Api não todo ele 
+apenas algumas funções do EntityFramework para gerar consistência 
+dentro do banco de dados como por exemplo nao 
+aceitar Registrar Campos Com o Mesmo Nome dentro de Uma Tabela que não é permitido.
 
 
 dotnet add package Microsoft.EntityFrameworkCore --version 3.1.14
