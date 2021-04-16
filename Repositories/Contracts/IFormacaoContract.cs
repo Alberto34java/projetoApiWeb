@@ -6,7 +6,7 @@ namespace Repositories.Contracts
     {
         List<T> GetALL();
         T GetFormacao(int id);
-        T SaveFormacao(T model);
+        bool SaveFormacao(T model);
         void DeleteFormacao(int id);
     }
 }
