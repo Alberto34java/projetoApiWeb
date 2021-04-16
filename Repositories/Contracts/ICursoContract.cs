@@ -6,8 +6,8 @@ namespace Repositories.Contracts
     {
         List<T> GetALL();
         T GetCurso(int id);
-        T SaveCurso(T model);
-        T UpdateCurso(T model, int id);
+        bool SaveCurso(T model);
+        bool UpdateCurso(T model, int id);
         void DeleteCurso(int id);
     }
 }
